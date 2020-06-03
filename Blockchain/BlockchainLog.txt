@@ -1,0 +1,236 @@
+Process 0 LOG:
+
+
+
+
+*********************************************************************
+
+Michaela Dionglay's Blockchain (control-c to quit)
+
+Using PROCESSID 0
+
+*********************************************************************
+
+Starting the Public Key Server thread using 6050
+Starting the Unverified Block Server input thread, listening at Port 6051
+Waiting for Process 2 to start...
+Waiting for Process 2 to start...
+Waiting for Process 2 to start...
+Waiting for Process 2 to start...
+Blockchain created!
+Process null verified a BlockID: b2a44f3d-4001-445f-8c0d-1e32211f7c06
+Sending Public Keys to processes...
+Current Process0 is reading: BlockInput0.txt
+Process 2 verified a BlockID: 93bab6f6-0bb7-49d1-8757-0346b5c89c69
+Starting the Unverified Block Priority Queue Consumer thread.
+
+Process 0 verified a BlockID: 2dbf924f-92e2-4118-b7c0-866ef6af1c75
+Process 0 verified a BlockID: d755393f-bf60-4c57-9a9d-295754e75a77
+Process 1 verified a BlockID: 7bf491f6-6b98-4116-8a97-72c07ded6545
+Process 1 verified a BlockID: b47b1053-04ad-48b6-a0b2-9e9838d2a876
+Process 2 verified a BlockID: 2bd37ce4-4538-46a2-9c22-535ffe2c9eb0
+Process 0 verified a BlockID: 65741677-fcd8-443a-8a90-31c45f1073f3
+Process 1 verified a BlockID: 17b18969-28a5-483c-823a-ce61d7320d57
+Process 2 verified a BlockID: 0c593f18-5330-44b3-9e5a-5845bbed2c4d
+Process 1 verified a BlockID: 7a3e0d71-fd59-432c-85e2-2be82adc5b3c
+Process 2 verified a BlockID: 7a30c444-394a-43db-8d38-12e3006fb0fb
+Process 1 verified a BlockID: 296684ab-7c70-42ed-a5ea-4c66e1058235
+*********************************************************************
+
+Options:
+Enter C to COUNT how many blocks each processes verified
+Enter R followed by a text file name to READ a file of records to create new data. Ex. "R file.txt"
+Enter V to VERIFY the entire blockchain and report errors
+Enter L to LOOK at information for each block in the blockchain
+
+*********************************************************************
+
+c
+Displaying credit tally for each process:
+Process 0: 3
+Process 1: 5
+Process 2: 4
+*********************************************************************
+
+Options:
+Enter C to COUNT how many blocks each processes verified
+Enter R followed by a text file name to READ a file of records to create new data. Ex. "R file.txt"
+Enter V to VERIFY the entire blockchain and report errors
+Enter L to LOOK at information for each block in the blockchain
+
+*********************************************************************
+
+v
+Verified blockchain!
+*********************************************************************
+
+Options:
+Enter C to COUNT how many blocks each processes verified
+Enter R followed by a text file name to READ a file of records to create new data. Ex. "R file.txt"
+Enter V to VERIFY the entire blockchain and report errors
+Enter L to LOOK at information for each block in the blockchain
+
+*********************************************************************
+
+R MyBlockData.txt
+Reading file MyBlockData.txt
+Sending data from MyBlockData.txt to be verified
+*********************************************************************
+
+Options:
+Enter C to COUNT how many blocks each processes verified
+Enter R followed by a text file name to READ a file of records to create new data. Ex. "R file.txt"
+Enter V to VERIFY the entire blockchain and report errors
+Enter L to LOOK at information for each block in the blockchain
+
+*********************************************************************
+
+Process 1 verified a BlockID: dfc33e61-191b-44e6-83e2-e869083ed8ad
+Process 2 verified a BlockID: 28ea84dd-7da8-4e3a-836e-f0619e99c695
+Process 0 verified a BlockID: 7627cc53-8464-4455-be34-8808cb20580a
+Process 0 verified a BlockID: 00775de7-55d4-479d-9228-178323a60cb0
+l
+Displaying blocks in ledger:
+16.  2020-05-26.05:25:20.0 Mich Diong 1914.11.25 111-22-3333 SoreKnees RestFromSports Aspirin
+15.  2020-05-26.05:25:19.0 Mi Di 1917.05.29 333-45-6999 AddisonsDisease DrugTherapy Steroids
+14.  2020-05-26.05:25:18.0 Mia Dion 1809.02.12 444-45-6888 GreviousWound Surgery Whiskey
+13.  2020-05-26.05:25:17.0 Michaela Dionglay 1880.06.27 666-45-6789 Arthritis WarmCloths Aspirin
+12.  2020-05-26.05:24:25.1 Bruce Lee 1940.11.27 456-789-123 SoreStomach LessCombat Vicodine
+11.  2020-05-26.05:24:25.0 Wayne Blaine 1942.07.07 123-45-6777 Measles WaitToGetBetter CodLiverOil
+10.  2020-05-26.05:24:24.2 Joe DiMaggio 1914.11.25 111-22-3333 SoreKnees RestFromSports Aspirin
+9.  2020-05-26.05:24:24.1 Sally McCutty 1970.01.01 123-456-999 Migraine IcePack Almotriptan
+8.  2020-05-26.05:24:24.0 Julie Wilson 1996.03.07 123-45-6999 Insomnia Exercise HotPeppers
+7.  2020-05-26.05:24:23.2 John Kennedy 1917.05.29 333-45-6999 AddisonsDisease DrugTherapy Steroids
+6.  2020-05-26.05:24:23.1 Wei Xu 1996.03.22 123-456-333 Shingles WaitForRelief Zovirax
+5.  2020-05-26.05:24:23.0 Joe Blow 1996.03.07 123-45-6888 Smallpox BedRest Whiskey
+4.  2020-05-26.05:24:22.2 Abraham Lincoln 1809.02.12 444-45-6888 GreviousWound Surgery Whiskey
+3.  2020-05-26.05:24:22.1 Rita Vita 1992.01.31 999-456-789 ObessivePersonality TryToRelax Ibuprofen
+2.  2020-05-26.05:24:22.0 John Smith 1996.03.07 123-45-6789 Chickenpox BedRest aspirin
+1.  2020-05-26.05:24:21.2 Helen Keller 1880.06.27 666-45-6789 Arthritis WarmCloths Aspirin
+0. null Michaela DummyBlock null null null null null
+*********************************************************************
+
+Options:
+Enter C to COUNT how many blocks each processes verified
+Enter R followed by a text file name to READ a file of records to create new data. Ex. "R file.txt"
+Enter V to VERIFY the entire blockchain and report errors
+Enter L to LOOK at information for each block in the blockchain
+
+*********************************************************************
+
+
+
+
+
+
+
+Process 1 LOG:
+
+
+
+
+
+*********************************************************************
+
+Michaela Dionglay's Blockchain (control-c to quit)
+
+Using PROCESSID 1
+
+*********************************************************************
+
+Starting the Unverified Block Server input thread, listening at Port 7051
+Starting the Public Key Server thread using 7050
+Waiting for Process 2 to start...
+Waiting for Process 2 to start...
+Waiting for Process 2 to start...
+Blockchain created!
+Process null verified a BlockID: b2a44f3d-4001-445f-8c0d-1e32211f7c06
+Sending Public Keys to processes...
+Current Process1 is reading: BlockInput1.txt
+Process 2 verified a BlockID: 93bab6f6-0bb7-49d1-8757-0346b5c89c69
+Starting the Unverified Block Priority Queue Consumer thread.
+
+Process 0 verified a BlockID: 2dbf924f-92e2-4118-b7c0-866ef6af1c75
+Process 0 verified a BlockID: d755393f-bf60-4c57-9a9d-295754e75a77
+Process 1 verified a BlockID: 7bf491f6-6b98-4116-8a97-72c07ded6545
+Process 1 verified a BlockID: b47b1053-04ad-48b6-a0b2-9e9838d2a876
+Process 2 verified a BlockID: 2bd37ce4-4538-46a2-9c22-535ffe2c9eb0
+Process 0 verified a BlockID: 65741677-fcd8-443a-8a90-31c45f1073f3
+Process 1 verified a BlockID: 17b18969-28a5-483c-823a-ce61d7320d57
+Process 2 verified a BlockID: 0c593f18-5330-44b3-9e5a-5845bbed2c4d
+Process 1 verified a BlockID: 7a3e0d71-fd59-432c-85e2-2be82adc5b3c
+Process 2 verified a BlockID: 7a30c444-394a-43db-8d38-12e3006fb0fb
+Process 1 verified a BlockID: 296684ab-7c70-42ed-a5ea-4c66e1058235
+*********************************************************************
+
+Options:
+Enter C to COUNT how many blocks each processes verified
+Enter R followed by a text file name to READ a file of records to create new data. Ex. "R file.txt"
+Enter V to VERIFY the entire blockchain and report errors
+Enter L to LOOK at information for each block in the blockchain
+
+*********************************************************************
+
+Process 1 verified a BlockID: dfc33e61-191b-44e6-83e2-e869083ed8ad
+Process 2 verified a BlockID: 28ea84dd-7da8-4e3a-836e-f0619e99c695
+Process 0 verified a BlockID: 7627cc53-8464-4455-be34-8808cb20580a
+Process 0 verified a BlockID: 00775de7-55d4-479d-9228-178323a60cb0
+
+
+
+
+
+
+
+
+
+Process 2 LOG:
+
+
+
+
+
+*********************************************************************
+
+Michaela Dionglay's Blockchain (control-c to quit)
+
+Using PROCESSID 2
+
+*********************************************************************
+
+Starting the Public Key Server thread using 8050
+Starting the Unverified Block Server input thread, listening at Port 8051
+Sending Public Keys to processes...
+Process 2 creating DUMMY Record...
+Sending DUMMY Record to processes...
+Blockchain created!
+Process null verified a BlockID: b2a44f3d-4001-445f-8c0d-1e32211f7c06
+Current Process2 is reading: BlockInput2.txt
+Starting the Unverified Block Priority Queue Consumer thread.
+
+Process 2 verified a BlockID: 93bab6f6-0bb7-49d1-8757-0346b5c89c69
+Process 0 verified a BlockID: 2dbf924f-92e2-4118-b7c0-866ef6af1c75
+Process 0 verified a BlockID: d755393f-bf60-4c57-9a9d-295754e75a77
+Process 1 verified a BlockID: 7bf491f6-6b98-4116-8a97-72c07ded6545
+Process 1 verified a BlockID: b47b1053-04ad-48b6-a0b2-9e9838d2a876
+Process 2 verified a BlockID: 2bd37ce4-4538-46a2-9c22-535ffe2c9eb0
+Process 0 verified a BlockID: 65741677-fcd8-443a-8a90-31c45f1073f3
+Process 1 verified a BlockID: 17b18969-28a5-483c-823a-ce61d7320d57
+Process 2 verified a BlockID: 0c593f18-5330-44b3-9e5a-5845bbed2c4d
+Process 1 verified a BlockID: 7a3e0d71-fd59-432c-85e2-2be82adc5b3c
+Process 2 verified a BlockID: 7a30c444-394a-43db-8d38-12e3006fb0fb
+Process 1 verified a BlockID: 296684ab-7c70-42ed-a5ea-4c66e1058235
+*********************************************************************
+
+Options:
+Enter C to COUNT how many blocks each processes verified
+Enter R followed by a text file name to READ a file of records to create new data. Ex. "R file.txt"
+Enter V to VERIFY the entire blockchain and report errors
+Enter L to LOOK at information for each block in the blockchain
+
+*********************************************************************
+
+Process 1 verified a BlockID: dfc33e61-191b-44e6-83e2-e869083ed8ad
+Process 2 verified a BlockID: 28ea84dd-7da8-4e3a-836e-f0619e99c695
+Process 0 verified a BlockID: 7627cc53-8464-4455-be34-8808cb20580a
+Process 0 verified a BlockID: 00775de7-55d4-479d-9228-178323a60cb0
