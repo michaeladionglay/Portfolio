@@ -1,0 +1,11 @@
+C:\Users\mia_d\Perforce\mdiongla_DESKTOP-66Q17RE_9057\team\tetris_1\Tetris\Tetris\Tetris\bin\Debug\Tetris.exe.config
+C:\Users\mia_d\Perforce\mdiongla_DESKTOP-66Q17RE_9057\team\tetris_1\Tetris\Tetris\Tetris\bin\Debug\Tetris.exe
+C:\Users\mia_d\Perforce\mdiongla_DESKTOP-66Q17RE_9057\team\tetris_1\Tetris\Tetris\Tetris\bin\Debug\Tetris.pdb
+C:\Users\mia_d\Perforce\mdiongla_DESKTOP-66Q17RE_9057\team\tetris_1\Tetris\Tetris\Tetris\bin\Debug\AzulCoreCLRDebug.dll
+C:\Users\mia_d\Perforce\mdiongla_DESKTOP-66Q17RE_9057\team\tetris_1\Tetris\Tetris\Tetris\bin\Debug\irrKlang.NET4.dll
+C:\Users\mia_d\Perforce\mdiongla_DESKTOP-66Q17RE_9057\team\tetris_1\Tetris\Tetris\Tetris\bin\Debug\AzulCoreCLRDebug.pdb
+C:\Users\mia_d\Perforce\mdiongla_DESKTOP-66Q17RE_9057\team\tetris_1\Tetris\Tetris\Tetris\obj\Debug\Tetris.csprojAssemblyReference.cache
+C:\Users\mia_d\Perforce\mdiongla_DESKTOP-66Q17RE_9057\team\tetris_1\Tetris\Tetris\Tetris\obj\Debug\Tetris.csproj.CoreCompileInputs.cache
+C:\Users\mia_d\Perforce\mdiongla_DESKTOP-66Q17RE_9057\team\tetris_1\Tetris\Tetris\Tetris\obj\Debug\Tetris.csproj.CopyComplete
+C:\Users\mia_d\Perforce\mdiongla_DESKTOP-66Q17RE_9057\team\tetris_1\Tetris\Tetris\Tetris\obj\Debug\Tetris.exe
+C:\Users\mia_d\Perforce\mdiongla_DESKTOP-66Q17RE_9057\team\tetris_1\Tetris\Tetris\Tetris\obj\Debug\Tetris.pdb

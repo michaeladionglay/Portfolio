@@ -1,0 +1,2 @@
+C:\Users\mia_d\Perforce\mdiongla_DESKTOP-66Q17RE_9057\team\tetris_1\Tetris\Tetris\Tetris\Tetris\obj\Debug\Tetris.csprojAssemblyReference.cache
+C:\Users\mia_d\Perforce\mdiongla_DESKTOP-66Q17RE_9057\team\tetris_1\Tetris\Tetris\Tetris\Tetris\obj\Debug\Tetris.csproj.CoreCompileInputs.cache
