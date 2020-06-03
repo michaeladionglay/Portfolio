@@ -1,0 +1,385 @@
+PRIMARY SERVER LOG:
+
+Michaela Dionglay's JokeServer[localhost default] starting up, listening at port 4545.
+Tifa made a request!
+Server sent Tifa joke! //JA
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa joke! //JC
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa joke! //JD
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa joke! //JB
+JOKE CYCLE ENDED for Tifa
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa joke! //JC
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa joke! //JA
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa joke! //JB
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa joke! //JD
+JOKE CYCLE ENDED for Tifa
+Server sent Tifa update
+Server received this command from Admin : change current mode to PROVERB //admin changes Primary server's mode
+Server sends Admin confirmation for the changes
+Tifa made a request!
+Server sent Tifa proverb! //PD
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa proverb! //PC
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa proverb! //PA
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa proverb! //PB
+PROVERB CYCLE ENDED for Tifa
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa proverb! //PA
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa proverb! //PC
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa proverb! //PD
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa proverb! //PB
+PROVERB CYCLE ENDED for Tifa
+Server sent Tifa update
+
+SECONDARY SERVER LOG:
+
+Michaela Dionglay's JokeServer[secondary] starting up, listening at port 4546.
+Tifa made a request!
+Server sent Tifa joke! //JC
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa joke! //JD
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa joke! //JB
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa joke! //JA
+JOKE CYCLE ENDED for Tifa
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa joke! //JB
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa joke! //JD
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa joke! //JA
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa joke! //JC
+JOKE CYCLE ENDED for Tifa
+Server sent Tifa update
+Server received this command from Admin : change current mode to PROVERB//admin changes secondary server mode to proverb
+Server sends Admin confirmation for the changes
+Tifa made a request!
+Server sent Tifa proverb! //PA
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa proverb! //PD
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa proverb! //PC
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa proverb! //PB
+PROVERB CYCLE ENDED for Tifa
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa proverb! //PA
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa proverb! //PB
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa proverb! //PC
+Server sent Tifa update
+Tifa made a request!
+Server sent Tifa proverb! //PD
+PROVERB CYCLE ENDED for Tifa
+Server sent Tifa update
+
+CLIENT ADMIN LOG:
+
+Michaela Dionglay's JokeClientAdmin.
+
+Using server one: localhost and server two: localhost and listening to port: 5050	//connected to server one
+Currently communicating with localhost:				//default mode is joke
+(1) Enter 's' if you want to switch to the other server
+(1) Enter 'JOKE' to changelocalhost to joke mode
+(2) Enter 'PROVERB' to change localhost to proverb mode
+(3) Enter 'quit' to exit
+PROVERB								//changed mode to proverb
+Server changed to PROVERB_MODE
+(1) Enter 's' if you want to switch to the other server
+(1) Enter 'JOKE' to changelocalhost to joke mode
+(2) Enter 'PROVERB' to change localhost to proverb mode
+(3) Enter 'quit' to exit
+s								//changed server to secondary; default mode is joke
+Now communicating with: localhost in port: 5051	
+(1) Enter 's' if you want to switch to the other server
+(1) Enter 'JOKE' to changelocalhost to joke mode
+(2) Enter 'PROVERB' to change localhost to proverb mode
+(3) Enter 'quit' to exit
+PROVERB								//changed mode to proverb
+Server changed to PROVERB_MODE
+(1) Enter 's' if you want to switch to the other server
+(1) Enter 'JOKE' to changelocalhost to joke mode
+(2) Enter 'PROVERB' to change localhost to proverb mode
+(3) Enter 'quit' to exit
+
+CLIENT LOG:
+
+Michaela Dionglay's JokeClient.
+
+Using server one: localhost and server two: localhost and listening to port: 4545	//connected by default to primary server
+What is your name?
+Tifa
+Continue pressing enter or type 'quit' to exit
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+											//joke mode is default
+Received from server: localhost in port 4545
+JA Tifa : What do you call a pig that does Karate? PORKCHOP!
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4545
+JC Tifa : What did the Policeman say to his belly button? YOU'RE UNDER A VEST!
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4545
+JD Tifa : What did the nut say when it was chasing the other nut?I'LL CASHEW!
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4545
+JB Tifa : Why did the bike fall over? BECAUSE IT WAS TOO TIRED!				//JOKE CYCLE ended
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4545
+JC Tifa : What did the Policeman say to his belly button? YOU'RE UNDER A VEST!
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4545
+JA Tifa : What do you call a pig that does Karate? PORKCHOP!
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4545
+JB Tifa : Why did the bike fall over? BECAUSE IT WAS TOO TIRED!
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4545
+JD Tifa : What did the nut say when it was chasing the other nut?I'LL CASHEW!		//JOKE CYCLE ended
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+											//admin changed primary server to proverb mode
+Received from server: localhost in port 4545
+PD Tifa : Too many cooks spoil the broth
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4545
+PC Tifa : Birds of a feather flock together
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4545
+PA Tifa : A bad workman always blames his tools
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4545
+PB Tifa : A journey of thousand miles begins with a single step.			//PROVERB CYCLE ended
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4545
+PA Tifa : A bad workman always blames his tools
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4545
+PC Tifa : Birds of a feather flock together
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4545
+PD Tifa : Too many cooks spoil the broth
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4545
+PB Tifa : A journey of thousand miles begins with a single step.			//PROVERB CYCLE ENDED
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+s											//client switched to secondary server
+Now communicating with: localhost at port: 4546						//secondary server default is joke
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4546
+<S2> JC Tifa : What did the Policeman say to his belly button? YOU'RE UNDER A VEST!	
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4546
+<S2> JD Tifa : What did the nut say when it was chasing the other nut?I'LL CASHEW!
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4546
+<S2> JB Tifa : Why did the bike fall over? BECAUSE IT WAS TOO TIRED!
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4546
+<S2> JA Tifa : What do you call a pig that does Karate? PORKCHOP!				//JOKE CYCLE ended
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4546
+<S2> JB Tifa : Why did the bike fall over? BECAUSE IT WAS TOO TIRED!
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4546
+<S2> JD Tifa : What did the nut say when it was chasing the other nut?I'LL CASHEW!
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4546
+<S2> JA Tifa : What do you call a pig that does Karate? PORKCHOP!
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4546
+<S2> JC Tifa : What did the Policeman say to his belly button? YOU'RE UNDER A VEST!		//JOKE CYCLE ended
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+												//admin changes secondary server to proverb mode
+Received from server: localhost in port 4546
+<S2> PA Tifa : A bad workman always blames his tools						
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4546
+<S2> PD Tifa : Too many cooks spoil the broth
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4546
+<S2> PC Tifa : Birds of a feather flock together
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4546
+<S2> PB Tifa : A journey of thousand miles begins with a single step.				//PROVERB CYCLE ended
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4546
+<S2> PA Tifa : A bad workman always blames his tools
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4546
+<S2> PB Tifa : A journey of thousand miles begins with a single step.
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4546
+<S2> PC Tifa : Birds of a feather flock together
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
+
+Received from server: localhost in port 4546
+<S2> PD Tifa : Too many cooks spoil the broth							//PROVERB CYCLE ended
+
+(1) Enter 's' if you want to switch to the other server
+(2) Press enter to continue
+(3) Enter 'quit' to exit
