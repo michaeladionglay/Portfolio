@@ -1,8 +1,10 @@
 # PORTFOLIO
 Consists of projects that I have worked on throughout school. 
 
-1. [ JokeServer. ](#desc)
-2. [ Tetris. ](#usage)
+1. [ BLOCKCHAIN PROJECT. ](#bc)
+2. [ JOKESERVER. ](#js)
+3. [ MOVIE RENTAL SYSTEM PROJECT. ](#mrs)
+4. [ TETRIS. ](#tetris)
 
 
 
@@ -10,7 +12,7 @@ Consists of projects that I have worked on throughout school.
 
 
 
-
+<a name="bc"></a>
 # BLOCKCHAIN PROJECT:
 
 Summary: Each process will read their own designated file (BlockInput0.txt, BlockInput1.txt, BlockInput2.txt)
@@ -62,7 +64,7 @@ This code was tested using Ubuntu
 
 
 
-<a name="desc"></a>
+<a name="js"></a>
 # JOKESERVER PROJECT:
 
 Summary: Developed a pair of multi-threaded servers that accept input from multiple clients. A client connecting to the server will 
@@ -98,7 +100,7 @@ IP address: 10.0.0.186
 
 
 
-
+<a name="mrs"></a>
 # MOVIE RENTAL SYSTEM PROJECT:
 
 Summary: Developed a movie rental system that allowed the user to perform actions on a simple movie database, such as 'add movie', 
@@ -119,7 +121,7 @@ Instructions to run this program:
 
 
 
-<a name="usage"></a>
+<a name="tetris"></a>
 # TETRIS PROJECT:
 
 Summary: Developed the back-end and manipulated the front-end for the game Tetris with 11 other students. Both C# and C++ were used. 
