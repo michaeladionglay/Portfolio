@@ -1,11 +1,17 @@
-# Portfolio
+# PORTFOLIO
 Consists of projects that I have worked on throughout school. 
 
+1. [ JokeServer. ](#desc)
+2. [ Tetris. ](#usage)
 
 
 
 
-BLOCKCHAIN PROJECT:
+
+
+
+
+# BLOCKCHAIN PROJECT:
 
 Summary: Each process will read their own designated file (BlockInput0.txt, BlockInput1.txt, BlockInput2.txt)
 Make each record into a BlockRecord and send these unverified blocks to all the processes, including 
@@ -56,8 +62,8 @@ This code was tested using Ubuntu
 
 
 
-
-JOKESERVER PROJECT:
+<a name="desc"></a>
+# JOKESERVER PROJECT:
 
 Summary: Developed a pair of multi-threaded servers that accept input from multiple clients. A client connecting to the server will 
 receive either jokes or proverbs depending on what state the server is currently in (Proverb or Jokes). 
@@ -93,7 +99,7 @@ IP address: 10.0.0.186
 
 
 
-MOVIE RENTAL SYSTEM PROJECT:
+# MOVIE RENTAL SYSTEM PROJECT:
 
 Summary: Developed a movie rental system that allowed the user to perform actions on a simple movie database, such as 'add movie', 
 'delete movie', 'view available rentals', etc. The purpose of this project was to incorporate different design patterns 
@@ -113,8 +119,8 @@ Instructions to run this program:
 
 
 
-
-TETRIS PROJECT:
+<a name="usage"></a>
+# TETRIS PROJECT:
 
 Summary: Developed the back-end and manipulated the front-end for the game Tetris with 11 other students. Both C# and C++ were used. 
 
